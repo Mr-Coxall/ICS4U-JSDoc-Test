@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  deploy:
+  Build_and_Deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
